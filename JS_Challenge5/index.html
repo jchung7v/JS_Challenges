@@ -1,0 +1,52 @@
+<html>
+  <body>
+    <h1>JS Challenge #5</h1>
+    <div>
+      <h2>Form</h2>
+      <label for="input-box">Name: </label>
+      <input type="text" id="text" />
+      <br /><br />
+      <!-- drop-down menu -->
+      <label for="set">Set: </label>
+      <select name="set" id="set">
+        <option value="setA">A</option>
+        <option value="setB">B</option>
+        <option value="setC">C</option>
+        <option value="setD">D</option>
+        <option value="setE">E</option>
+        <option value="setF">F</option>
+      </select>
+      <br /><br />
+      <!-- raido-buttons -->
+      <input type="radio" id="burnaby" name="campus" value="Burnaby Campus" />
+      <label for="burnaby">Burnaby Campus</label>
+      <input type="radio" id="downtown" name="campus" value="Downtown Campus" />
+      <label for="downtwon">Downtown Campus</label>
+      <br /><br />
+      <!-- checkboxes -->
+      <input type="checkbox" id="vehicle1" name="vehicle" value="Bus" />
+      <label for="vehicle1">Bus</label>
+      <input type="checkbox" id="vehicle2" name="vehicle" value="Car" />
+      <label for="vehicle2">Car</label>
+      <input type="checkbox" id="vehicle3" name="vehicle" value="Walk" />
+      <label for="vehicle3">Walk</label>
+      <input type="checkbox" id="vehicle4" name="vehicle" value="Bike" />
+      <label for="vehicle4">Bike</label>
+      <br /><br />
+      <!-- submit button -->
+      <button id="submit-btn">Submit</button>
+    </div>
+    <br />
+    <hr />
+    <div>
+      <!-- The results -->
+      <h2>Result</h2>
+      <p id="text-input"></p>
+      <p id="set-input"></p>
+      <p id="campus-input"></p>
+      <p id="vehicle-input"></p>
+      <ul id="vehicle-input-list"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
